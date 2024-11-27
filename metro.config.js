@@ -9,3 +9,6 @@ const config = getDefaultConfig(__dirname);
 module.exports = wrapWithReanimatedMetroConfig(
   withNativeWind(config, { input: "./global.css" })
 );
+
+//node_modules/expo/AppEntry.js
+// expo-router/entry
